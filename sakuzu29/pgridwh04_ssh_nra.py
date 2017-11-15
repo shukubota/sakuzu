@@ -54,7 +54,7 @@ for phase in range(1,2):
 
 
 
-	for i in range(0,max):
+	for i in range(0,1):
 		#print i
 		head=str(int(dhead[i]))
 		print head
@@ -151,7 +151,14 @@ for phase in range(1,2):
 			flag=np.delete(flag,cols,0)
 			#print array
 			#print np.shape(array)
+			
+			array[:,3]+=np.round(array[:,0]/15.)
+			array[:,3]=array[:,3]%24
 
+			#print array
+
+
+			
 			if len(array)!=0:
 
 
