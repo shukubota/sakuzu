@@ -1,1 +1,1 @@
-# sakuzu_backup
+MJO関係の研究の作図に使ったscriptのバックアップ
